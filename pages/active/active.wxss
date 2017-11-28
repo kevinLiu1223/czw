@@ -1,0 +1,19 @@
+/** wxss **/
+@import "article/article.wxss";
+@import "../../weui.wxss";
+@import "flex/flex.wxss";
+map {
+  width: 100%;
+  height: 500rpx;
+}
+
+.page__hd {
+  background: #ffffff;
+  padding: 0;
+}
+
+.weui-flex{
+  background: #ffffff;
+  border-bottom:1px solid #f8f8f8;
+
+}

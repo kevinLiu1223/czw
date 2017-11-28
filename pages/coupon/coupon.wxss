@@ -1,0 +1,6 @@
+/** wxss **/
+@import "../../weui.wxss";
+
+.page .coupon_cover{
+    width: 100%;
+}

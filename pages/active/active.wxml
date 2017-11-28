@@ -1,0 +1,22 @@
+<view class="page">
+    <map id='map' show-location latitude='{{latitude}}' longitude='{{longitude}}' scale='16'
+         markers='{{markers}}'/>
+    <view class="page__bd">
+        <view class="weui-flex">
+            <view class="weui-flex__item">
+                <!--<image mode="aspectFit" src="../images/location.png" style="width: 20px;height:100%;"></image>-->
+                <view class="placeholder"><image mode="aspectFit" src="../images/location.png" style="width: 20px;height:100%;"></image><text>这里是某某会所</text></view>
+            </view>
+        </view>
+    </view>
+    <view class="page__hd">
+        <view class="weui-article">
+            <!--<text class='weui-article__title'>这里是某某会所</text>-->
+            <view class="weui-article__section">
+                <text class='weui-article__p'>
+                    此处导航为当前举办活动的具体位置，定位到具体位置,点击触发导航跳转到高德地图导航页面,这里需要查阅高德地图API看具体如何跳转，是否需要中间页此处导航为当前举办活动的具体位置，定位到具体位置,点击触发导航跳转到高德地图导航页面,这里需要查阅高德地图API看具体如何跳转，是否需要中间页此处导航为当前举办活动的具体位置，定位到具体位置,点击触发导航跳转到高德地图导航页面,这里需要查阅高德地图API看具体如何跳转，是否需要中间页
+                </text>
+            </view>
+        </view>
+    </view>
+</view>

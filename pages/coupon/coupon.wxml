@@ -1,0 +1,8 @@
+<view class="page">
+    <image class="coupon_cover" mode="aspectFit" src="../images/coupon_cover.jpeg"></image>
+    <view class="page__bd">
+    </view>
+    <view class="page__hd">
+
+    </view>
+</view>

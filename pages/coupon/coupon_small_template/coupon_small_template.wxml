@@ -1,15 +1,77 @@
 <!--index.wxml-->
-<view class="container">
-    <view class="userinfo">
-        <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称
-        </button>
-        <block wx:else>
-            <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}"
-                   background-size="cover"></image>
-            <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-        </block>
+<template name="couponName">
+    <view class="weui-flex">
+        <view class="weui-flex">
+            <view class="weui-flex__item">
+                <view class="placeholder">
+                    <image mode="scaleToFill" src="../images/coupon_cover_small1.jpeg"></image>
+                </view>
+            </view>
+            <view class="weui-flex__item">
+                <view class="placeholder">
+                    <image mode="scaleToFill" src="../images/coupon_cover_small2.jpeg"></image>
+                </view>
+            </view>
+        </view>
+        <view class="weui-flex">
+            <view class="weui-flex__item">
+                <view class="placeholder">
+                    <image mode="scaleToFill" src="../images/coupon_cover_small3.jpeg"></image>
+                </view>
+            </view>
+            <view class="weui-flex__item">
+                <view class="placeholder">
+                    <image mode="scaleToFill" src="../images/coupon_cover_small4.jpeg"></image>
+                </view>
+            </view>
+        </view>
+        <view class="weui-flex">
+            <view class="weui-flex__item">
+                <view class="placeholder">
+                    <image mode="scaleToFill" src="../images/coupon_cover_small5.jpeg"></image>
+                </view>
+            </view>
+            <view class="weui-flex__item">
+                <view class="placeholder">
+                    <image mode="scaleToFill" src="../images/coupon_cover_small6.jpeg"></image>
+                </view>
+            </view>
+        </view>
+        <view class="weui-flex">
+            <view class="weui-flex__item">
+                <view class="placeholder">
+                    <image mode="scaleToFill" src="../images/coupon_cover_small7.jpeg"></image>
+                </view>
+            </view>
+            <view class="weui-flex__item">
+                <view class="placeholder">
+                    <image mode="scaleToFill" src="../images/coupon_cover_small8.jpeg"></image>
+                </view>
+            </view>
+        </view>
+        <view class="weui-flex">
+            <view class="weui-flex__item">
+                <view class="placeholder">
+                    <image mode="scaleToFill" src="../images/coupon_cover_small9.jpeg"></image>
+                </view>
+            </view>
+            <view class="weui-flex__item">
+                <view class="placeholder">
+                    <image mode="scaleToFill" src="../images/coupon_cover_small10.jpeg"></image>
+                </view>
+            </view>
+        </view>
+        <view class="weui-flex">
+            <view class="weui-flex__item">
+                <view class="placeholder">
+                    <image mode="scaleToFill" src="../images/coupon_cover_small11.jpeg"></image>
+                </view>
+            </view>
+            <view class="weui-flex__item">
+                <view class="placeholder">
+                    <image mode="scaleToFill" src="../images/coupon_cover_small12.jpeg"></image>
+                </view>
+            </view>
+        </view>
     </view>
-    <view class="usermotto">
-        <text class="user-motto">{{motto}}</text>
-    </view>
-</view>
+</template>

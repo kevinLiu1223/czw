@@ -2,6 +2,7 @@
   "pages":[
     "pages/active/active",
     "pages/coupon/coupon",
+    "pages/coupon_detail/coupon_detail",
     "dist/example/index",
     "pages/index/index",
     "pages/logs/logs"

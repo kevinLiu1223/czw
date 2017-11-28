@@ -1,8 +1,29 @@
 <view class="page">
-    <image class="coupon_cover" mode="aspectFit" src="../images/coupon_cover.jpeg"></image>
-    <view class="page__bd">
-    </view>
-    <view class="page__hd">
-
+    <image class="coupon_cover" mode="widthFix" src="../images/coupon_cover.jpeg"></image>
+    <view class="page__bd page__bd_spacing">
+        <view class="weui-flex">
+            <view class="weui-flex__item"><view class="placeholder"><image mode="scaleToFill" src="../images/coupon_cover_small1.jpeg"></image></view></view>
+            <view class="weui-flex__item"><view class="placeholder"><image mode="scaleToFill" src="../images/coupon_cover_small2.jpeg"></image></view></view>
+        </view>
+        <view class="weui-flex">
+            <view class="weui-flex__item"><view class="placeholder"><image mode="scaleToFill" src="../images/coupon_cover_small3.jpeg"></image></view></view>
+            <view class="weui-flex__item"><view class="placeholder"><image mode="scaleToFill" src="../images/coupon_cover_small4.jpeg"></image></view></view>
+        </view>
+        <view class="weui-flex">
+            <view class="weui-flex__item"><view class="placeholder"><image mode="scaleToFill" src="../images/coupon_cover_small5.jpeg"></image></view></view>
+            <view class="weui-flex__item"><view class="placeholder"><image mode="scaleToFill" src="../images/coupon_cover_small6.jpeg"></image></view></view>
+        </view>
+        <view class="weui-flex">
+            <view class="weui-flex__item"><view class="placeholder"><image mode="scaleToFill" src="../images/coupon_cover_small7.jpeg"></image></view></view>
+            <view class="weui-flex__item"><view class="placeholder"><image mode="scaleToFill" src="../images/coupon_cover_small8.jpeg"></image></view></view>
+        </view>
+        <view class="weui-flex">
+            <view class="weui-flex__item"><view class="placeholder"><image mode="scaleToFill" src="../images/coupon_cover_small9.jpeg"></image></view></view>
+            <view class="weui-flex__item"><view class="placeholder"><image mode="scaleToFill" src="../images/coupon_cover_small10.jpeg"></image></view></view>
+        </view>
+        <view class="weui-flex">
+            <view class="weui-flex__item"><view class="placeholder"><image mode="scaleToFill" src="../images/coupon_cover_small11.jpeg"></image></view></view>
+            <view class="weui-flex__item"><view class="placeholder"><image mode="scaleToFill" src="../images/coupon_cover_small12.jpeg"></image></view></view>
+        </view>
     </view>
 </view>

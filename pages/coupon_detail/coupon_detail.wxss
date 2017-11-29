@@ -1,4 +1,6 @@
 /** wxss **/
+@import "preview/preview.wxss";
+
 .page .coupon_cover{
   width: 100%;
   border-radius: 3px;

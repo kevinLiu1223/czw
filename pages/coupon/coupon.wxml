@@ -2,17 +2,21 @@
     <image class="coupon_cover" mode="widthFix" src="../images/coupon_cover.jpeg"></image>
     <view class="page__bd page__bd_spacing">
         <view class="weui-flex">
-            <view class="weui-flex__item" catchtap="onTap">
-                <view class="placeholder">
-                    <image mode="scaleToFill" src="../images/coupon_cover_small1.jpeg"></image>
-                </view>
-                <text>思念的你</text>
+            <view class="weui-flex__item" data-hi="WeChat">
+                <navigator url="/pages/coupon_detail/coupon_detail">
+                    <view class="placeholder">
+                        <image mode="scaleToFill" src="../images/coupon_cover_small1.jpeg"></image>
+                    </view>
+                    <text>思念的你</text>
+                </navigator>
             </view>
-            <view class="weui-flex__item" catchtap="onTap">
-                <view class="placeholder">
-                    <image mode="scaleToFill" src="../images/coupon_cover_small2.jpeg"></image>
-                </view>
-                <text>美丽新世界</text>
+            <view class="weui-flex__item">
+                <navigator url="/pages/coupon_detail/coupon_detail">
+                    <view class="placeholder">
+                        <image mode="scaleToFill" src="../images/coupon_cover_small2.jpeg"></image>
+                    </view>
+                    <text>美丽新世界</text>
+                </navigator>
             </view>
         </view>
         <view class="weui-flex">

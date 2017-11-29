@@ -1,14 +1,16 @@
 Page({
-    data:{
-
+    data: {
+        message: 'kjhkljghj',
     },
-    onLoad:function () {
-
-    },
-    onTap:function (event) {
+    onTap: function (event) {
+        console.log(event)
         wx.navigateTo({
             url: '../coupon_detail/coupon_detail?id=1'
         })
+    },
+    onLoad: function () {
+        this.setData({
+            message: 'aaaaaafdsfasdfa'
+        })
     }
 })
-

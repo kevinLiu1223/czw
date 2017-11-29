@@ -3,6 +3,7 @@
     "pages/active/active",
     "pages/coupon/coupon",
     "pages/coupon_detail/coupon_detail",
+    "pages/tickets/tickets",
     "pages/index/index",
     "pages/logs/logs"
   ],
@@ -32,7 +33,7 @@
       {
         "selectedIconPath": "pages/images/buy_selected.png",
         "iconPath": "pages/images/buy.png",
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/tickets/tickets",
         "text": "购买票券"
       }
     ]

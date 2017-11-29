@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="page">
+    <image class="coupon_cover" mode="widthFix" src="../images/coupon_cover.jpeg"></image>
+
+    <!--<view class="page__bd page__bd_spacing">-->
+        <!--<view class="weui-flex">-->
+            <!--<view class="weui-flex__item">-->
+                <!--<view class="placeholder">-->
+                    <!--<image class="coupon_cover" mode="widthFix" src="../images/coupon_cover_small1.jpeg"></image>-->
+                <!--</view>-->
+            <!--</view>-->
+        <!--</view>-->
+    <!--</view>-->
+    <view class="page__bd page__bd_spacing">
+        <view class="weui-flex">
+            <view class="weui-flex__item">
+                <view class="placeholder">
+                    <image class="" mode="widthFix" src="../images/piao.jpg"></image>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

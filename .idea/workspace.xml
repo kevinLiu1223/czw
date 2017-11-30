@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="839aa0ff-fb23-41fe-9c7a-8e4ff251f6fd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/tickets/flex/flex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/tickets/flex/flex.wxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/tickets/flex/flex.wxss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/tickets/preview/preview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/tickets/preview/preview.wxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/tickets/preview/preview.wxss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/tickets/tickets.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/tickets/tickets.wxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/tickets/tickets.wxss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.json" afterPath="$PROJECT_DIR$/app.json" />
-    </list>
+    <list default="true" id="839aa0ff-fb23-41fe-9c7a-8e4ff251f6fd" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -49,8 +37,8 @@
       <file leaf-file-name="tickets.wxml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/tickets/tickets.wxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="15" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="12" selection-end-column="15" />
+            <state relative-caret-position="418">
+              <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -349,12 +337,12 @@
       <option name="presentableId" value="Default" />
       <updated>1511764624586</updated>
       <workItem from="1511764626363" duration="34746000" />
-      <workItem from="1511863712272" duration="18260000" />
+      <workItem from="1511863712272" duration="18807000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53006000" />
+    <option name="totallyTimeSpent" value="53553000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="831" extended-state="6" />
@@ -779,8 +767,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/tickets/tickets.wxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="15" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="12" selection-end-column="15" />
+        <state relative-caret-position="418">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
           <folding />
         </state>
       </provider>

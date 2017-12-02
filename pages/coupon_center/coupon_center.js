@@ -23,5 +23,51 @@ Page({
             sliderOffset: e.currentTarget.offsetLeft,
             activeIndex: e.currentTarget.id
         });
+    },
+
+    shareFriend: function () {
+        return {
+            title: '这里是机智life小程序',
+            path: '/page/index/index?id=123',
+            success: function (res) {
+                console.log(res.shareTickets[0])
+                // console.log
+                wx.getShareInfo({
+                    shareTicket: res.shareTickets[0],
+                    success: function (res) { console.log(res) },
+                    fail: function (res) { console.log(res) },
+                    complete: function (res) { console.log(res) }
+                })
+            },
+            fail: function (res) {
+                // 分享失败
+                console.log(res)
+            }
+        }
+    },
+    openConfirm: function () {
+        this.setData({
+            color:'',
+            text:'立即使用',
+            backgroundColor:'#eeeeee'
+        })
+        wx.showModal({
+            title: '车蛛网',
+            content: '请关注车蛛网公众号',
+            confirmText: "关注使用",
+            cancelText: "取消使用",
+            success: function (res) {
+                console.log(res);
+                if (res.confirm) {
+                    wx.showToast({
+                        title: '关注成功',
+                        icon: 'success',
+                        duration: 3100
+                    });
+                }else{
+                    console.log('用户点击辅助操作')
+                }
+            }
+        });
     }
 });

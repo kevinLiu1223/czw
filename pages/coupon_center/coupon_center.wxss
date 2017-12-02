@@ -18,3 +18,9 @@ page,
 .weui-navbar__slider{
   background-color: #1296db;
 }
+.weui-tab__content{
+  padding-top: 30px;
+}
+.weui-form-preview{
+  margin-bottom: 15px;
+}

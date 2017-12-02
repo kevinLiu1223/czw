@@ -133,8 +133,19 @@ Page({
         wx.showToast({
             title: '微信支付',
             icon: 'loading',
-            duration: 3000
+            duration: 3000,
+            'success': function () {
+               setTimeout(function () {
+                   wx.navigateTo({
+                       url: 'msg/msg_success'
+                   })
+                   // wx.navigateTo({
+                   //     url:'../coupon_center/coupon_center'
+                   // })
+               },2000)
+            }
         });
+
         wx.requestPayment({
             appId:"wx53a85d543038233f",//小程序id
             nonceStr:"qdpys6rdizbnpj12ahwvkf568a6c1sr9", //随机字符串
@@ -147,53 +158,54 @@ Page({
             },
             'fail':function(res){
                 console.log(res)
+
             }
         })
     },
-    pay: function () {
-        var ordercode = this.data.txtOrderCode;
-        wx.login({
-            success: function (res) {
-                if (res.code) {
-                    wx.request({
-                        url: 'https://www.yourdomain.com/pay',
-                        data: {
-                            code: res.code,//要去换取openid的登录凭证
-                            ordercode: ordercode
-                        },
-                        method: 'GET',
-                        success: function (res) {
-                            console.log(res.data)
-                            wx.requestPayment({
-                                timeStamp: res.data.timeStamp,
-                                nonceStr: res.data.nonceStr,
-                                package: res.data.package,
-                                signType: 'MD5',
-                                paySign: res.data.paySign,
-                                success: function (res) {
-                                    // success
-                                    console.log(res);
-                                },
-                                fail: function (res) {
-                                    // fail
-                                    console.log(res);
-                                },
-                                complete: function (res) {
-                                    // complete
-                                    console.log(res);
-                                }
-                            })
-                        }
-                    })
-                } else {
-                    console.log('获取用户登录态失败！' + res.errMsg)
-                }
-            }
-        });
-    },
-    getOrderCode: function (event) {
-        this.setData({
-            txtOrderCode: event.detail.value
-        });
-    }
+    // pay: function () {
+    //     var ordercode = this.data.txtOrderCode;
+    //     wx.login({
+    //         success: function (res) {
+    //             if (res.code) {
+    //                 wx.request({
+    //                     url: 'https://www.yourdomain.com/pay',
+    //                     data: {
+    //                         code: res.code,//要去换取openid的登录凭证
+    //                         ordercode: ordercode
+    //                     },
+    //                     method: 'GET',
+    //                     success: function (res) {
+    //                         console.log(res.data)
+    //                         wx.requestPayment({
+    //                             timeStamp: res.data.timeStamp,
+    //                             nonceStr: res.data.nonceStr,
+    //                             package: res.data.package,
+    //                             signType: 'MD5',
+    //                             paySign: res.data.paySign,
+    //                             success: function (res) {
+    //                                 // success
+    //                                 console.log(res);
+    //                             },
+    //                             fail: function (res) {
+    //                                 // fail
+    //                                 console.log(res);
+    //                             },
+    //                             complete: function (res) {
+    //                                 // complete
+    //                                 console.log(res);
+    //                             }
+    //                         })
+    //                     }
+    //                 })
+    //             } else {
+    //                 console.log('获取用户登录态失败！' + res.errMsg)
+    //             }
+    //         }
+    //     });
+    // },
+    // getOrderCode: function (event) {
+    //     this.setData({
+    //         txtOrderCode: event.detail.value
+    //     });
+    // }
 })

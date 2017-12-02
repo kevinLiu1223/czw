@@ -12,9 +12,72 @@
                       style="left: {{sliderLeft}}px; transform: translateX({{sliderOffset}}px); -webkit-transform: translateX({{sliderOffset}}px);"></view>
             </view>
             <view class="weui-tab__panel">
-                <view class="weui-tab__content" hidden="{{activeIndex != 0}}">未使用</view>
-                <view class="weui-tab__content" hidden="{{activeIndex != 1}}">已使用</view>
-                <view class="weui-tab__content" hidden="{{activeIndex != 2}}">已过期</view>
+                <view class="weui-tab__content" hidden="{{activeIndex != 0}}">
+                    <view class="page__bd page__bd_spacing">
+                        <view class="weui-form-preview">
+                            <view class="weui-form-preview__bd">
+                                <image class="" mode="widthFix" src="../images/piao.jpg"></image>
+                            </view>
+                            <view class="weui-form-preview__ft">
+                                <navigator class="weui-form-preview__btn weui-form-preview__btn_default" hover-class="weui-form-preview__btn_active" bindtap="openConfirm">立即使用</navigator>
+                                <navigator class="weui-form-preview__btn weui-form-preview__btn_primary" hover-class="weui-form-preview__btn_active" bindtap="shareFriend">分享好友</navigator>
+                            </view>
+                        </view>
+                        <view class="weui-form-preview">
+                            <view class="weui-form-preview__bd">
+                                <image class="" mode="widthFix" src="../images/piao.jpg"></image>
+                            </view>
+                            <view class="weui-form-preview__ft">
+                                <navigator class="weui-form-preview__btn weui-form-preview__btn_default" hover-class="weui-form-preview__btn_active">立即使用</navigator>
+                                <navigator class="weui-form-preview__btn weui-form-preview__btn_primary" hover-class="weui-form-preview__btn_active">分享好友</navigator>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+                <view class="weui-tab__content" hidden="{{activeIndex != 1}}">
+                    <view class="page__bd page__bd_spacing">
+                        <view class="weui-form-preview">
+                            <view class="weui-form-preview__bd">
+                                <image class="" mode="widthFix" src="../images/piao.jpg"></image>
+                            </view>
+                            <view class="weui-form-preview__ft">
+                                <navigator class="weui-form-preview__btn weui-form-preview__btn_default" hover-class="weui-form-preview__btn_active" bindtap="openConfirm">立即使用</navigator>
+                                <navigator class="weui-form-preview__btn weui-form-preview__btn_primary" hover-class="weui-form-preview__btn_active" bindtap="shareFriend">分享好友</navigator>
+                            </view>
+                        </view>
+                        <view class="weui-form-preview">
+                            <view class="weui-form-preview__bd">
+                                <image class="" mode="widthFix" src="../images/piao.jpg"></image>
+                            </view>
+                            <view class="weui-form-preview__ft">
+                                <navigator class="weui-form-preview__btn weui-form-preview__btn_default" hover-class="weui-form-preview__btn_active">立即使用</navigator>
+                                <navigator class="weui-form-preview__btn weui-form-preview__btn_primary" hover-class="weui-form-preview__btn_active">分享好友</navigator>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+                <view class="weui-tab__content" hidden="{{activeIndex != 2}}">
+                    <view class="page__bd page__bd_spacing">
+                        <view class="weui-form-preview">
+                            <view class="weui-form-preview__bd">
+                                <image class="" mode="widthFix" src="../images/piao.jpg"></image>
+                            </view>
+                            <view class="weui-form-preview__ft">
+                                <navigator class="weui-form-preview__btn weui-form-preview__btn_default" hover-class="weui-form-preview__btn_active" bindtap="openConfirm">立即使用</navigator>
+                                <navigator class="weui-form-preview__btn weui-form-preview__btn_primary" hover-class="weui-form-preview__btn_active" bindtap="shareFriend">分享好友</navigator>
+                            </view>
+                        </view>
+                        <view class="weui-form-preview">
+                            <view class="weui-form-preview__bd">
+                                <image class="" mode="widthFix" src="../images/piao.jpg"></image>
+                            </view>
+                            <view class="weui-form-preview__ft">
+                                <navigator class="weui-form-preview__btn weui-form-preview__btn_default" hover-class="weui-form-preview__btn_active">立即使用</navigator>
+                                <navigator class="weui-form-preview__btn weui-form-preview__btn_primary" hover-class="weui-form-preview__btn_active">分享好友</navigator>
+                            </view>
+                        </view>
+                    </view>
+                </view>
             </view>
         </view>
     </view>

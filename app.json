@@ -1,10 +1,11 @@
 {
   "pages": [
-    "pages/coupon_center/coupon_center",
     "pages/active/active",
     "pages/coupon/coupon",
     "pages/coupon_detail/coupon_detail",
     "pages/tickets/tickets",
+    "pages/coupon_center/coupon_center",
+    "pages/tickets/msg/msg_success",
     "pages/index/index",
     "pages/logs/logs"
   ],

@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/coupon_center/coupon_center",
     "pages/active/active",
     "pages/coupon/coupon",
     "pages/coupon_detail/coupon_detail",

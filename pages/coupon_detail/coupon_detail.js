@@ -22,9 +22,6 @@ Page({
                     wx.navigateTo({
                         url: '../coupon_center/coupon_center'
                     })
-                    // wx.navigateTo({
-                    //     url:'../coupon_center/coupon_center'
-                    // })
                 },2000)
             }
         });

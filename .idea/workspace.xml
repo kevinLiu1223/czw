@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="839aa0ff-fb23-41fe-9c7a-8e4ff251f6fd" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/pages/tickets/msg/msg.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pages/tickets/msg/msg.wxml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pages/tickets/msg/msg.wxss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pages/tickets/msg/msg_fail.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pages/tickets/msg/msg_fail.wxml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pages/tickets/msg/msg_fail.wxss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pages/tickets/msg/msg_success.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pages/tickets/msg/msg_success.wxml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pages/tickets/msg/msg_success.wxss" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app.json" afterPath="$PROJECT_DIR$/app.json" />
       <change beforePath="$PROJECT_DIR$/pages/coupon_center/coupon_center.js" afterPath="$PROJECT_DIR$/pages/coupon_center/coupon_center.js" />
-      <change beforePath="$PROJECT_DIR$/pages/coupon_center/coupon_center.wxml" afterPath="$PROJECT_DIR$/pages/coupon_center/coupon_center.wxml" />
-      <change beforePath="$PROJECT_DIR$/pages/coupon_center/coupon_center.wxss" afterPath="$PROJECT_DIR$/pages/coupon_center/coupon_center.wxss" />
-      <change beforePath="$PROJECT_DIR$/pages/tickets/tickets.js" afterPath="$PROJECT_DIR$/pages/tickets/tickets.js" />
-      <change beforePath="$PROJECT_DIR$/pages/tickets/tickets.wxml" afterPath="$PROJECT_DIR$/pages/tickets/tickets.wxml" />
+      <change beforePath="$PROJECT_DIR$/pages/coupon_detail/coupon_detail.js" afterPath="$PROJECT_DIR$/pages/coupon_detail/coupon_detail.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,13 +27,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="coupon_center.wxml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="coupon_center.wxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/coupon_center/coupon_center.wxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="56" column="27" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+            <state relative-caret-position="885">
+              <caret line="59" column="60" lean-forward="true" selection-start-line="59" selection-start-column="60" selection-end-line="59" selection-end-column="60" />
               <folding>
                 <element signature="n#style#0;n#view#0;n#view#0;n#view#0;n#view#0;n#view#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tickets.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/tickets/tickets.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="146" column="11" lean-forward="true" selection-start-line="132" selection-start-column="7" selection-end-line="146" selection-end-column="11" />
+              <folding>
+                <marker date="1512196177000" expanded="true" signature="5000:6948" ph="..." />
               </folding>
             </state>
           </provider>
@@ -63,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="coupon_detail.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="coupon_detail.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/coupon_detail/coupon_detail.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="581">
+              <caret line="49" column="2" lean-forward="true" selection-start-line="49" selection-start-column="2" selection-end-line="49" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -86,8 +84,8 @@
       <file leaf-file-name="coupon_center.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/coupon_center/coupon_center.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="47" column="15" lean-forward="false" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="15" />
+            <state relative-caret-position="285">
+              <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -118,16 +116,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="msg_success.wxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/tickets/msg/msg_success.wxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -182,7 +170,6 @@
         <option value="$PROJECT_DIR$/pages/active/active.wxml" />
         <option value="$PROJECT_DIR$/pages/coupon_detail/dialog/dialog.wxml" />
         <option value="$PROJECT_DIR$/pages/coupon_detail/coupon_detail.wxml" />
-        <option value="$PROJECT_DIR$/pages/coupon_detail/coupon_detail.js" />
         <option value="$PROJECT_DIR$/pages/tickets/preview/preview.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pages/tickets/tickets.wxss" />
@@ -192,8 +179,9 @@
         <option value="$PROJECT_DIR$/pages/tickets/msg/msg_success.wxml" />
         <option value="$PROJECT_DIR$/pages/tickets/tickets.wxml" />
         <option value="$PROJECT_DIR$/pages/coupon_center/coupon_center.wxss" />
-        <option value="$PROJECT_DIR$/pages/coupon_center/coupon_center.js" />
         <option value="$PROJECT_DIR$/pages/coupon_center/coupon_center.wxml" />
+        <option value="$PROJECT_DIR$/pages/coupon_center/coupon_center.js" />
+        <option value="$PROJECT_DIR$/pages/coupon_detail/coupon_detail.js" />
       </list>
     </option>
   </component>
@@ -296,6 +284,12 @@
             <path>
               <item name="czw" type="b2602c69:ProjectViewProjectNode" />
               <item name="czw" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="tickets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="czw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="czw" type="462c0819:PsiDirectoryNode" />
               <item name="style" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -357,12 +351,12 @@
       <updated>1511764624586</updated>
       <workItem from="1511764626363" duration="34746000" />
       <workItem from="1511863712272" duration="38791000" />
-      <workItem from="1512119405197" duration="14166000" />
+      <workItem from="1512119405197" duration="17029000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87703000" />
+    <option name="totallyTimeSpent" value="90566000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="831" extended-state="6" />
@@ -423,6 +417,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -437,6 +432,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="11" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="10" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -658,16 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/tickets/tickets.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="147" column="0" lean-forward="true" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
-          <folding>
-            <marker date="1512196177000" expanded="true" signature="5000:6948" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/tickets/msg/msg.wxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -764,18 +750,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/coupon_detail/coupon_detail.js">
+    <entry file="file://$PROJECT_DIR$/pages/coupon_center/coupon_center.wxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="885">
+          <caret line="59" column="60" lean-forward="true" selection-start-line="59" selection-start-column="60" selection-end-line="59" selection-end-column="60" />
+          <folding>
+            <element signature="n#style#0;n#view#0;n#view#0;n#view#0;n#view#0;n#view#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/coupon_center/coupon_center.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="47" column="15" lean-forward="false" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="15" />
+        <state relative-caret-position="285">
+          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -788,13 +776,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/coupon_center/coupon_center.wxml">
+    <entry file="file://$PROJECT_DIR$/pages/tickets/tickets.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="56" column="27" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        <state relative-caret-position="393">
+          <caret line="146" column="11" lean-forward="true" selection-start-line="132" selection-start-column="7" selection-end-line="146" selection-end-column="11" />
           <folding>
-            <element signature="n#style#0;n#view#0;n#view#0;n#view#0;n#view#0;n#view#0;n#!!top" expanded="true" />
+            <marker date="1512196177000" expanded="true" signature="5000:6948" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/coupon_detail/coupon_detail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="49" column="2" lean-forward="true" selection-start-line="49" selection-start-column="2" selection-end-line="49" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>

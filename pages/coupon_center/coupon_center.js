@@ -2,8 +2,8 @@ var sliderWidth = 96; // 需要设置slider的宽度，用于计算中间位置
 
 Page({
     data: {
-        tabs: ["未使用", "已使用", "已过期"],
-        activeIndex: 1,
+        tabs: ["购买票券", "优惠卡券", "不可用卡券"],
+        activeIndex: 0,
         sliderOffset: 0,
         sliderLeft: 0
     },

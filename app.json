@@ -21,8 +21,8 @@
     "borderStyle": "#f8f8f8",
     "list": [
       {
-        "selectedIconPath": "pages/images/coupon_selected.png",
-        "iconPath": "pages/images/coupon.png",
+        "selectedIconPath": "pages/images/active_selected.png",
+        "iconPath": "pages/images/active.png",
         "pagePath": "pages/active/active",
         "text": "首页"
       },

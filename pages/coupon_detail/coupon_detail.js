@@ -1,11 +1,26 @@
+var couponData = require('../../data/coupon.js')
+
 Page({
     data:{
         color:'',
         backgroundColor:'',
-        text:'立即领取'
+        text:'立即领取',
+        price:'',
+        title:'',
+        date:'',
+        cuponPrice:''
     },
     getSuccess:function(event){
 
+    },
+    onLoad:function (option) {
+        console.log(option.price)
+        this.setData({
+            price:option.price,
+            title:option.title,
+            date:option.date,
+            cuponPrice:option.cuponPrice
+        })
     },
     openConfirm: function () {
         this.setData({

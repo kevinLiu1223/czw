@@ -151,7 +151,7 @@
 }
 .gifts-content{
   width: 60%;
-  padding-top: 12px;
+  padding-top: 10px;
   text-align: left;
 }
 .gifts-title-box{
@@ -163,7 +163,11 @@
 
 }
 .gifts-price-box{
-  margin-top: -17rpx;
+  /* margin-top: -17rpx; */
+  display:flex;
+  text-align:center;
+  align-items:center;
+  width:20%;
 }
 .gifts-price{
   font-size: 25rpx;
@@ -172,7 +176,7 @@
 .numCount{
   color: #1296db;
   font-size: 50rpx;
-  width: 40%;
+  width: 20%;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -213,8 +217,8 @@
 .numAdd-box-0{
   background-color: #FAFAFB;
   height: 100%;
-  width: 45%;
-  margin-left: 134rpx;
+  width: 100%;
+  /* margin-left: 134rpx; */
   /*line-height: 106rpx;*/
 }
 .bottom_0{

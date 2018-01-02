@@ -35,6 +35,24 @@ App({
       }
     })
   },
+  onShareAppMessage: function (res) {
+    if (res.from === 'button') {
+      // 来自页面内转发按钮
+      console.log(res.target)
+    }
+    return {
+      title: '自定义转发标题',
+      path: '/pages/coupon/coupon?id=123',
+      imageUrl:'/pages/images/logo.png',
+      success: function (res) {
+        // 转发成功
+        console.log(res)
+      },
+      fail: function (res) {
+        // 转发失败
+      }
+    }
+  },
   globalData: {
     userInfo: null
   }

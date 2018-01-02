@@ -1,76 +1,23 @@
 <!--index.wxml-->
+
 <template name="couponName">
-    <view class="weui-flex">
+    <view class="page__bd page__bd_spacing">
         <view class="weui-flex">
-            <view class="weui-flex__item">
-                <view class="placeholder">
-                    <image mode="scaleToFill" src="../images/coupon_cover_small1.jpeg"></image>
-                </view>
+            <view class="weui-flex__item" data-hi="WeChat">
+                <navigator url="/pages/coupon_detail/coupon_detail?id={{item1.id}}&price={{item1.price}}&title={{item1.title}}&date={{item1.date}}&cuponPrice={{item1.cuponPrice}}">
+                    <view class="placeholder">
+                        <image mode="scaleToFill" src="{{item1.imgsrc}}"></image>
+                    </view>
+                    <text>{{item1.title}}</text>
+                </navigator>
             </view>
-            <view class="weui-flex__item">
-                <view class="placeholder">
-                    <image mode="scaleToFill" src="../images/coupon_cover_small2.jpeg"></image>
-                </view>
-            </view>
-        </view>
-        <view class="weui-flex">
-            <view class="weui-flex__item">
-                <view class="placeholder">
-                    <image mode="scaleToFill" src="../images/coupon_cover_small3.jpeg"></image>
-                </view>
-            </view>
-            <view class="weui-flex__item">
-                <view class="placeholder">
-                    <image mode="scaleToFill" src="../images/coupon_cover_small4.jpeg"></image>
-                </view>
-            </view>
-        </view>
-        <view class="weui-flex">
-            <view class="weui-flex__item">
-                <view class="placeholder">
-                    <image mode="scaleToFill" src="../images/coupon_cover_small5.jpeg"></image>
-                </view>
-            </view>
-            <view class="weui-flex__item">
-                <view class="placeholder">
-                    <image mode="scaleToFill" src="../images/coupon_cover_small6.jpeg"></image>
-                </view>
-            </view>
-        </view>
-        <view class="weui-flex">
-            <view class="weui-flex__item">
-                <view class="placeholder">
-                    <image mode="scaleToFill" src="../images/coupon_cover_small7.jpeg"></image>
-                </view>
-            </view>
-            <view class="weui-flex__item">
-                <view class="placeholder">
-                    <image mode="scaleToFill" src="../images/coupon_cover_small8.jpeg"></image>
-                </view>
-            </view>
-        </view>
-        <view class="weui-flex">
-            <view class="weui-flex__item">
-                <view class="placeholder">
-                    <image mode="scaleToFill" src="../images/coupon_cover_small9.jpeg"></image>
-                </view>
-            </view>
-            <view class="weui-flex__item">
-                <view class="placeholder">
-                    <image mode="scaleToFill" src="../images/coupon_cover_small10.jpeg"></image>
-                </view>
-            </view>
-        </view>
-        <view class="weui-flex">
-            <view class="weui-flex__item">
-                <view class="placeholder">
-                    <image mode="scaleToFill" src="../images/coupon_cover_small11.jpeg"></image>
-                </view>
-            </view>
-            <view class="weui-flex__item">
-                <view class="placeholder">
-                    <image mode="scaleToFill" src="../images/coupon_cover_small12.jpeg"></image>
-                </view>
+            <view class="weui-flex__item" data-hi="WeChat">
+                <navigator url="/pages/coupon_detail/coupon_detail?id={{item2.id}}&price={{item2.price}}&title={{item2.title}}&date={{item2.date}}&cuponPrice={{item2.cuponPrice}}">
+                    <view class="placeholder">
+                        <image mode="scaleToFill" src="{{item2.imgsrc}}"></image>
+                    </view>
+                    <text>{{item2.title}}</text>
+                </navigator>
             </view>
         </view>
     </view>

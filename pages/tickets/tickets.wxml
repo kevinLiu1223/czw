@@ -1,17 +1,6 @@
 <!--index.wxml-->
 <view class="page">
     <image class="coupon_cover" mode="widthFix" src="../images/coupon_cover.jpeg"></image>
-
-    <!--<view class="page__bd page__bd_spacing">-->
-    <!--<view class="weui-flex">-->
-    <!--<view class="weui-flex__item">-->
-    <!--<view class="placeholder">-->
-    <!--<image class="coupon_cover" mode="widthFix" src="../images/coupon_cover_small1.jpeg"></image>-->
-    <!--</view>-->
-    <!--</view>-->
-    <!--</view>-->
-    <!--</view>-->
-
     <view class="page__bd page__bd_spacing">
         <view class="weui-flex">
             <view class="weui-flex__item">
@@ -22,6 +11,9 @@
                             <view class="cart-box-flex">
                                 <view class="gifts-content">
                                     <text class="gifts-title">{{item.title}}</text>
+                                </view>
+                                <view class="gifts-price-box">
+                                    <text class="gifts-price">{{item.price}}元</text>
                                 </view>
                                 <view class="numCount numCount_active" wx:if="{{item.num>0}}">
                                     <view class="numMin-box" bindtap="minusCount" data-index="{{index}}">
@@ -44,7 +36,6 @@
                         </view>
                     </view>
                 </view>
-
             </view>
         </view>
     </view>

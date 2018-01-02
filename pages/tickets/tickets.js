@@ -22,19 +22,12 @@ Page({
         this.setData({
             hasList: true,
             carts: [
-                {id: 1, title: '当季特饮', num: 0, price: 39, selected: true},
-                {id: 2, title: '抹茶星冰乐', num: 0, price: 34, selected: true},
-                {id: 3, title: '冷萃冰咖啡', num: 0, price: 36, selected: true},
-                {id: 4, title: '拿铁', num: 0, price: 31, selected: true},
-                {id: 5, title: '焦糖玛奇朵', num: 0, price: 35, selected: true},
-                {id: 6, title: '轻甜冷萃', num: 0, price: 39, selected: true},
-                {id: 7, title: '摩卡', num: 0, price: 34, selected: true},
-                {id: 8, title: '馥芮白', num: 0, price: 36, selected: true},
-                {id: 9, title: '卡布奇诺', num: 0, price: 31, selected: true},
-                {id: 10, title: '星礼卡', num: 0, price: 100, selected: true},
-                {id: 11, title: '星礼卡', num: 0, price: 50, selected: true},
-                {id: 12, title: '高度券', num: 0, price: 3, selected: true},
-                {id: 13, title: '深度券', num: 0, price: 4, selected: true},
+              { id: 1, title: '迎财神', num: 0, price: 39, selected: true},
+              { id: 2, title: '回家过年', num: 0, price: 34, selected: true},
+              { id: 3, title: '来一场说走就走的旅行', num: 0, price: 36, selected: true},
+              { id: 4, title: '一起旅行吧', num: 0, price: 31, selected: true},
+              { id: 5, title: '约吗？', num: 0, price: 35, selected: true},
+              { id: 6, title: '一起散散心', num: 0, price: 39, selected: true},
             ]
         })
     },
@@ -158,7 +151,6 @@ Page({
             },
             'fail':function(res){
                 console.log(res)
-
             }
         })
     },

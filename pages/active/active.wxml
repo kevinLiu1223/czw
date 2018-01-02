@@ -5,7 +5,7 @@
         <view class="weui-flex">
             <view class="weui-flex__item">
                 <!--<image mode="aspectFit" src="../images/location.png" style="width: 20px;height:100%;"></image>-->
-                <view class="placeholder"><image mode="aspectFit" src="../images/location.png" style="width: 20px;height:100%;"></image><text>这里是某某会所</text></view>
+                <view class="placeholder"><image mode="aspectFit" src="../images/location.png" style="width: 20px;height:100%;"></image><text>xx加油站</text></view>
             </view>
         </view>
     </view>
@@ -14,7 +14,11 @@
             <!--<text class='weui-article__title'>这里是某某会所</text>-->
             <view class="weui-article__section">
                 <text class='weui-article__p'>
-                    此处导航为当前举办活动的具体位置，定位到具体位置,点击触发导航跳转到高德地图导航页面,这里需要查阅高德地图API看具体如何跳转，是否需要中间页此处导航为当前举办活动的具体位置，定位到具体位置,点击触发导航跳转到高德地图导航页面,这里需要查阅高德地图API看具体如何跳转，是否需要中间页此处导航为当前举办活动的具体位置，定位到具体位置,点击触发导航跳转到高德地图导航页面,这里需要查阅高德地图API看具体如何跳转，是否需要中间页
+<text class='bigfont-title'>宇宙无敌</text>加油站生活圈为有车一族打造<text class='bigfont'>“一公里品质生活圈”</text>，在这里优惠多，实惠多，养车、生活更便捷！
+
+现诚招合作商家，合作商家可享受本站客户资源共享、参与平台活动等提高竞争力。
+
+招商电话：xxxx-xxxxxxxx
                 </text>
             </view>
         </view>

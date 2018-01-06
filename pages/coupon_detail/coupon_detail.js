@@ -8,21 +8,26 @@ Page({
         price:'',
         title:'',
         date:'',
-        cuponPrice:''
+        cuponPrice:'',
+        bigImgSrc:''
     },
     getSuccess:function(event){
 
     },
     onLoad:function (option) {
-        console.log(option.price)
+        console.log(option.bigImgSrc)
         this.setData({
             price:option.price,
             title:option.title,
             date:option.date,
-            cuponPrice:option.cuponPrice
+            cuponPrice:option.cuponPrice,
+            bigImgSrc:option.bigImgSrc
         })
     },
     openConfirm: function () {
+        var that = this
+        console.log(that.data.bigImgSrc+'ddd')
+
         this.setData({
             color:'',
             text:'领取成功',
@@ -35,7 +40,7 @@ Page({
             'success': function () {
                 setTimeout(function () {
                     wx.navigateTo({
-                        url: '../coupon_center/coupon_center'
+                        url: '../coupon_center/coupon_center?bigImgSrc='+that.data.bigImgSrc
                     })
                 },2000)
             }

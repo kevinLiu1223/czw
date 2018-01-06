@@ -6,12 +6,11 @@ Page({
         // condition:false,
         comment: [],
         details: [],
-        image1: "../../images/detail_photo1.png",
-        image2: "../../images/detail_photo2.png",
-        image3: "../../images/detail_photo3.png",
-        image4: "../../images/detail_photo4.png",
-        image5: "../../images/detail_photo5.png",
-        image6: "../../images/detail_photo6.png",
+        image1: "../images/newYear_big/yingcaishen.jpg",
+        image2: "../images/newYear_big/huiniangjia.jpg",
+        image3: "../images/newYear_big/chunjiehuijia.jpg",
+        image4: "../images/newYear_big/huiniangjia.jpg",
+        image5: "../images/newYear_big/huiniangjia.jpg",
         carts: [],
         hasList: false,
         totalPrice: 0,
@@ -19,15 +18,15 @@ Page({
         txtOrderCode:''
     },
     onShow: function () {
+        var that = this
         this.setData({
             hasList: true,
             carts: [
-              { id: 1, title: '迎财神', num: 0, price: 39, selected: true},
-              { id: 2, title: '回家过年', num: 0, price: 34, selected: true},
-              { id: 3, title: '来一场说走就走的旅行', num: 0, price: 36, selected: true},
-              { id: 4, title: '一起旅行吧', num: 0, price: 31, selected: true},
-              { id: 5, title: '约吗？', num: 0, price: 35, selected: true},
-              { id: 6, title: '一起散散心', num: 0, price: 39, selected: true},
+              { id: 1, title: '迎财神', num: 0, price: 39,image:that.data.image1,selected: true},
+              { id: 2, title: '回娘家', num: 0, price: 36,image:that.data.image2, selected: true},
+              { id: 3, title: '回家过年', num: 0, price: 31, image:that.data.image3,selected: true},
+              { id: 4, title: '约吗？', num: 0, price: 35, image:that.data.image4,selected: true},
+              { id: 5, title: '一起散散心', num: 0, price: 39,image:that.data.image5, selected: true},
             ]
         })
     },
@@ -45,6 +44,24 @@ Page({
             num: num,
             minusStatus: minusStatus
         });
+    },
+    onShareAppMessage: function (res) {
+        if (res.from === 'button') {
+            // 来自页面内转发按钮
+            console.log(res.target)
+        }
+        return {
+            title: '免费领取优惠券',
+            path: '/pages/coupon/coupon?id=123',
+            imageUrl: '/pages/images/poster/springFestival.jpg',
+            success: function (res) {
+                // 转发成功
+                console.log(res)
+            },
+            fail: function (res) {
+                // 转发失败
+            }
+        }
     },
     /* 点击加号 */
     bindPlus: function () {

@@ -23,9 +23,9 @@ Page({
             console.log(res.target)
         }
         return {
-            title: '那个思念的季节',
+            title: '免费领取优惠券',
             path: '/pages/coupon/coupon?id=123',
-            imageUrl: '/pages/images/coupon_cover_small1.jpeg',
+            imageUrl: '/pages/images/poster/springFestival.jpg',
             success: function (res) {
                 // 转发成功
                 console.log(res)

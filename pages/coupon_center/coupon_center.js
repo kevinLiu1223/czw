@@ -1,13 +1,16 @@
 var sliderWidth = 96; // 需要设置slider的宽度，用于计算中间位置
+var couponData = require('../../data/coupon.js')
 
 Page({
     data: {
         tabs: ["购买票券", "优惠卡券", "不可用卡券"],
         activeIndex: 0,
         sliderOffset: 0,
-        sliderLeft: 0
+        sliderLeft: 0,
+        bigImgSrc:''
     },
-    onLoad: function () {
+    onLoad: function (option) {
+        console.log(option.bigImgSrc)
         var that = this;
         wx.getSystemInfo({
             success: function(res) {

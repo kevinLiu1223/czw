@@ -3,7 +3,7 @@
         <view class="weui-flex">
             <view class="weui-flex__item">
                 <view class="placeholder">
-                    <image class="coupon_cover" mode="widthFix" src="../images/coupon_cover_small1.jpeg"></image>
+                    <image class="coupon_cover" mode="widthFix" src="{{bigImgSrc}}"></image>
                 </view>
             </view>
         </view>

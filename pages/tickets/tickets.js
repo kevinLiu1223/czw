@@ -157,14 +157,21 @@ Page({
         });
 
         wx.requestPayment({
+            // appId:"wx53a85d543038233f",//小程序id
+            // nonceStr:"qdpys6rdizbnpj12ahwvkf568a6c1sr9", //随机字符串
+            // package:"prepay_id=wx2017033010242291fcfe0db70013231072", //wx的预支付交易单
+            // paySign:"8A7DC1A560B3B6DB0C656AC382D3E6F1",
+            // signType:"MD5",
+            // timeStamp:"1481167418",
+
             appId:"wx53a85d543038233f",//小程序id
             nonceStr:"qdpys6rdizbnpj12ahwvkf568a6c1sr9", //随机字符串
-            package:"prepay_id=wx2017033010242291fcfe0db70013231072", //wx的预支付交易单
-            paySign:"8A7DC1A560B3B6DB0C656AC382D3E6F1",
+            package:"prepay_id=u802345jgfjsdfgsdg888", //wx的预支付交易单
+            paySign:"70EA570631E4BB79628FBCA90534C63FF7FADD89",
             signType:"MD5",
             timeStamp:"1481167418",
             'success':function(res){
-                console.log(res)
+                console.log(res+'点点滴滴')
             },
             'fail':function(res){
                 console.log(res)
